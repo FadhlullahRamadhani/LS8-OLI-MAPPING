@@ -1,0 +1,5 @@
+"","Bare land","Reproductive","Ripening","Vegetative"
+"Bare land",0,0,0,0
+"Reproductive",0,25,10,9
+"Ripening",3,16,22,8
+"Vegetative",57,1,16,57
