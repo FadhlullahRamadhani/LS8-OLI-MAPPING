@@ -22,17 +22,19 @@ B. Building the model
 
 2. Create tabulation based CCTV images and LS8 value. Erase all FMASK<>322
 
-3. Building the model using several classiers and tuning it using SR_Landsat8_ML_2018_indramayu_EDIT.R
+3. Building the model using several classifiers and tuning it using SR_Landsat8_ML_2018_indramayu_EDIT.R
 
 4. Recap the classifier's result using recap_SR_output_model_LS8_2018_indramayu_edit.R
 
-5. Copy the best model for eah classifier into MODEL folder
+5. Copy the best model for each classifier into MODEL folder
 
-6. Run SR_Landsat8_indramayu_ML_classify1.R for classifying.R
+6. Change RDS path file to best model on SR_Landsat8_indramayu_ML_classify1.R
 
-7. Run SR_Landsat8_indramayu_ML_mask_clip_region_paddy_utm1.R for mergeing into one image
+7. Run SR_Landsat8_indramayu_ML_classify1.R for classifying.R
 
-8. Run SR_Landsat8_indramayu_ML_change_detection_paddy_utm1.R for detecting change classes
+8. Run SR_Landsat8_indramayu_ML_mask_clip_region_paddy_utm1.R for mergeing into one image
 
-8. Run SR_Landsat8_indramayu_ML_change_detection_paddy_utm_reclass1.R for reclass of change detection
+9. Run SR_Landsat8_indramayu_ML_change_detection_paddy_utm1.R for detecting change classes
+
+10. Run SR_Landsat8_indramayu_ML_change_detection_paddy_utm_reclass1.R for reclass of change detection
 
