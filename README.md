@@ -11,7 +11,7 @@ Folder SR-LS8-indramayu-utm contains the images of the classification results fr
 A. Download Data
 1. Install Python and GEE login. Please refer to https://developers.google.com/earth-engine/python_install
 
-2. Download data using dl_SR_LS8_path_row_utm_bands_batch_2018.py and dl_SR_LS8_path_row_utm_FMASK_batch_2018.py
+2. Download data using dl_SR_LS8_indramayu_complete_utm.py and dl_SR_LS8_indramayu_fmask_complete_utm.py
 
 3. Downloading LS8 values based on CCTV locations dl_SR_LS8_cctv_complete_utm.py and dl_SR_LS8_cctv_fmask_complete_utm.py 
 
@@ -28,13 +28,13 @@ B. Building the model
 
 5. Copy the best model for each classifier into MODEL folder
 
-6. Change RDS path file to best model on SR_Landsat8_indramayu_ML_classify1.R
+6. Change RDS path file to best model on SR_Landsat8_indramayu_ML_classify2.R
 
-7. Run SR_Landsat8_indramayu_ML_classify1.R for classifying.R
+7. Run SR_Landsat8_indramayu_ML_classify2.R for classifying.R
 
-8. Run SR_Landsat8_indramayu_ML_mask_clip_region_paddy_utm1.R for mergeing into one image
+8. Run SR_Landsat8_indramayu_ML_mask_clip_region_paddy_utm2.R and SR_Landsat8_indramayu_ML_merge_fmask_utm2.R for merging into one image
 
-9. Run SR_Landsat8_indramayu_ML_change_detection_paddy_utm1.R for detecting change classes
+9. Run SR_Landsat8_indramayu_ML_change_detection_paddy_utm2.R for detecting change classes
 
-10. Run SR_Landsat8_indramayu_ML_change_detection_paddy_utm_reclass1.R for reclass of change detection
+10. Run SR_Landsat8_indramayu_ML_change_detection_paddy_utm_reclass2.R for reclass of change detection
 
