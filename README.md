@@ -1,6 +1,7 @@
 # LS8-OLI-MAPPING
 Mapping of rice growth phases and bare land using Landsat-8 OLI and machine learning algorithms
-
+Please cite this work with:
+Ramadhani, F., Pullanagari, R., Kereszturi, G., & Procter, J. (2020). Mapping of rice growth phases and bare land using Landsat-8 OLI with machine learning. International Journal of Remote Sensing, 41(21), 8428-8452. https://doi.org/10.1080/01431161.2020.1779378 
 
 This is the steps to recreate the mapping. Please change the path of folder accordingly.
 
